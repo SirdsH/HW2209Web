@@ -89,5 +89,16 @@ footer {
     .desc {
         font-size: 22px;
     }
+}
 
+@media (max-width: 600px) {
+    img {
+        margin-top: 100px;
+        width: 150px;
+        height: 85px;
+    }
+
+    .desc {
+        font-size: 18px;
+    }
 }
