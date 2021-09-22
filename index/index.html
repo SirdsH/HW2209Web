@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <script src="../node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+    <script src="../node_modules/lightgallery/lightgallery.min.js"></script>
+    <link rel="stylesheet" href="../node_modules/lightgallery/css/lightgallery.css">
+</head>
+<body>
+<nav class="navbar">
+    <ul>
+        <li><a href="index.html">Gallery</a></li>
+    </ul>
+    <div class="logo">
+        <i class="fas fa-fish"></i>
+    </div>
+</nav>
+<div id="lightgallery">
+    <a href="carp.jpg">
+        <img src="carp.jpg" alt="">
+        <div class="desc">Cyprinus carpio</div>
+    </a>
+
+    <a href="pike.jpg">
+        <img src="pike.jpg" alt="">
+        <div class="desc">Esox lucius</div>
+    </a>
+
+    <a href="wels.jpg">
+        <img src="wels.jpg" alt="">
+        <div class="desc">Silurus glanis</div>
+    </a>
+
+    <a href="bream.jpg">
+        <img src="bream.jpg" alt="">
+        <div class="desc">Abramis brama</div>
+    </a>
+</div>
+<script type="text/javascript">
+    lightGallery(document.getElementById('lightgallery'));
+</script>
+</body>
+<footer>
+    <div class="ic">
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+    </div>
+</footer>
+</html>
